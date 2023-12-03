@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOLCE  DESSERTS</title>
+    <link
+    rel="shortcut icon"
+    href="data:image/jpeg;base64,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"
+    type="image/x-icon"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <marquee style="font-family:Book Antiqua; color: #ffffff; font-size: 22px;" bgcolor="#098484" scrollamount="10" loop="infinite">NEW DIWALI GIFT HAMPERS ALERT!!!|Only limited hampers available|Book now and let us be a part in your celebration
+  </marquee>
+
+<header class="header">
+    <a href="#" class="logo">   <img src="Images/Logo.png" width="85" height="90" class="img-fluid" alt="Company Logo"></a>
+
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Limited Hampers</a>
+        <a href="#">Category</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+
+</header>
+
+
+
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="img">
+                <img data-lazyloaded="1" src="Images/bg1.jpg"  alt="">
+                <div class="text-overlay">
+                    <h3>DOLCE DESSERTS</h3>
+                      <span>We sugarcoat everything</span>
+                      <a href="about.html" class="btn">Know More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="img">
+                <img data-lazyloaded="1" src="Images/bg2.jpg"  alt="">
+            </div>
+            <div class="text-overlay">
+                <span>Have a Cake-A-Licious</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Know More</a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="text-overlay">
+                <span>Have a Cake-A-Licious</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Know More</a>
+            </div>
+            <div class="img">
+                <img data-lazyloaded="1" src="Images/bg3.jpg"  alt="">
+            </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+</section>
+
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img data-lazyloaded="1" src="Images\ham1.jpg" decoding="async" data-src="Images\ham1.jpg" alt="">
+        <div class="content">
+        <span>Limited Stock</span>
+        <h3>Diwali Hampers</h3>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img data-lazyloaded="1" src="Images\truf1.jpg" decoding="async" data-src="Images\truf1.jpg" alt="">
+        <div class="content">
+        <span>Limited Stock</span>
+        <h3>Truffles Box</h3>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\lux1.jpg" decoding="async" data-src="Images\lux1.jpg" alt="">
+        <div class="content">
+        <span>Limited Stock</span>
+        <h3>Luxury Hampers</h3>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+    </div>
+
+</section>
+
+
+
+
+<div class="heading">
+    <h1>our shop</h1>
+    </div>
+
+<section class="category">
+
+<h1 class="title"> our <span>category</span> <a href="#">view all >></a> </h1>
+
+<div class="box-container">
+
+    <a href="cup.html" class="box">
+        <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\cupcake1.jpg" decoding="async" data-src="Images\cupcake1.jpg" alt="">
+        <h3>Cupcakes</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\cookie1.jpg" decoding="async" data-src="Images\cookie1.jpg" alt="">
+        <h3>Cookies</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\brwn1.jpg" decoding="async" data-src="Images\brwn1.jpg" alt="">
+        <h3>Brownies</h3>
+    </a>
+
+    <a href="macaron.html" class="box">
+        <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\mac1.jpg" decoding="async" data-src="Images\mac1.jpg" alt="">
+        <h3>Macrons</h3>
+    </a>
+
+    <a href="truffles.html" class="box">
+        <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\truff.jpg" decoding="async" data-src="Images\truff.jpg" alt="">
+        <h3>Truffles</h3>
+    </a>
+
+
+</div>
+
+</section>
+
+
+
+
+<div class="heading">
+    <h1>About Us</h1>
+    </div>
+
+<section class="about">
+    <div class="img">
+         <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\abt1.jpg" decoding="async" data-src="Images\abt1.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>We-Sugar-Coat-Everything</span>
+        <h3>Welcome to Dolce Desserts</h3>
+        <p>"Dolce Desserts was found in 2018 by Ms.Anusha Shetty, who was passionate about baking using authentic seasonal and fresh ingredients." </p>
+        <p>Our purpose is to create hampers that are customised, experiential, unique and a perfect amalgamation of desserts, gifts, candles, etc.</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+</section>
+
+
+
+<section class="gallery">
+    <h1 class="title"> our <span>gallery</span> <a href="viewall.html">view all >></a> </h1>
+    <div class="box-container2">
+
+        <div class="box">
+            <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\ck1.jpg" decoding="async" data-src="Images\ck1.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\ck2.jpg" decoding="async" data-src="Images\ck2.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\ck3.jpg" decoding="async" data-src="Images\ck3.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\ck4.jpg" decoding="async" data-src="Images\ck4.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img data-lazyloaded="1" src="C:\Users\Shrilakshmi\Desktop\Project\Images\ck5.jpg" decoding="async" data-src="Images\ck5.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+
+
+<div class="heading">
+    <h1>client's review</h1>
+</div>
+
+<section class="info-container">
+
+    <div class="info">
+        <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" data-src="img/icons-1.png" alt="">
+        <div class="content">
+            <h3>Fast delivery</h3>
+        </div>
+    </div>
+
+    <div class="info">
+        <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" data-src="img/icons-2.png" alt="">
+        <div class="content">
+            <h3>24 / 7 available</h3>
+            <span>call us anytime</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" data-src="img/icons-3.png" alt="">
+        <div class="content">
+            <h3>Easy payments</h3>
+            <span>Cash or Credit Cards or Mobile Wallets   
+            </span>
+        </div>
+    </div>
+    <div class="info">
+        <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" data-src="img/icons-3.png" alt="">
+        <div class="content">
+            <h3>Easy payments</h3>
+            <span>Cash or Credit Cards or Mobile Wallets   
+            </span>
+        </div>
+    </div>
+    <div class="info">
+        <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" data-src="img/icons-3.png" alt="">
+        <div class="content">
+            <h3>Easy payments</h3>
+            <span>Cash or Credit Cards or Mobile Wallets   
+            </span>
+        </div>
+    </div><div class="info">
+        <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" data-src="img/icons-3.png" alt="">
+        <div class="content">
+            <h3>Takeaway</h3>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="review">
+
+    <div class="box">
+        <div class="user">
+            <img data-lazyloaded="1" src="Images\pf1.jpg" decoding="async" data-src="" alt="Images\pf1.jpg">
+            <div class="info">
+                <h3>Pushan Aggarwal</h3>
+                <span>Happy client</span>
+            </div>
+        </div>
+        <p>Always had a great experience!
+            Without a doubt the best cakes and cupcakes in all of Manipal and Udupi
+        </p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img data-lazyloaded="1" src="Images\pf2.jpg" decoding="async" data-src="" alt="Images\pf2.jpg">
+            <div class="info">
+                <h3>Diksha Dinker</h3>
+                <span>Happy client</span>
+            </div>
+        </div>
+        <p>Dolce convinced an ardent chai lover(myself) that coffee can be delectable too!</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img data-lazyloaded="1" src="Images\pf3.jpg" decoding="async" data-src="" alt="Images\pf3.jpg">
+            <div class="info">
+                <h3>Manna Chowdhury</h3>
+                <span>Happy client</span>
+            </div>
+        </div>
+        <p>AMAZING CAKES without a doubt...Best of its kind in Udupi.Every ordervhas just been an experience its a must try!!!</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img data-lazyloaded="1" src="Images\pf4.jpg" decoding="async" data-src="" alt="Images\pf4.jpg">
+            <div class="info">
+                <h3>Vivek Vishwanathan</h3>
+                <span>Happy client</span>
+            </div>
+        </div>
+        <p>Handsdown Dolce is one of the best places that serve gourmet desserts!!!</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img data-lazyloaded="1" src="Images\pf5.jpg" decoding="async" data-src="" alt="Images\pf5.jpg">
+            <div class="info">
+                <h3>Anagha Kamath</h3>
+                <span>Happy client</span>
+            </div>
+        </div>
+        <p>They are hands down the best bakers in town. I have been ordering cakes for almost 5 years now and our celebrations are incomplete without their cakes.Truast me each and every flavour is amazing.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img data-lazyloaded="1" src="Images\pf6.jpg" decoding="async" data-src="" alt="Images\pf6.jpg">
+            <div class="info">
+                <h3>Mrunal Deshmukh</h3>
+                <span>Happy client</span>
+            </div>
+        </div>
+        <p>I tried this place out today, and I have to say, their coffee is amazing. It tastes really, really good, and the staff is super nice. They even make the coffee just the way you like it. I definitely recommend going there; it's a fantastic place for coffee lovers</p>
+    </div>
+
+</section>
+
+
+
+
+
+
+<div class="heading">
+    <h1>Contact us</h1>
+</div>
+
+<section class="contact">
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>Our number</h3>
+            <p>91 9449563877</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>Our email</h3>
+            <p>dessertsbydolce@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Our address</h3>
+            <p>Green View Apartments, SH 65, beside KFC, Laxmindra Nagar, Manipal, Karnataka.</p>
+        </div>
+
+    </div>
+
+     <div class="row">
+         <form action="">
+             <h3>get in touch</h3>
+             <div class="inputBox">
+             <input type="text" placeholder="enter your name" class="box">
+             <input type="text" placeholder="enter your email" class="box">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="enter your number" class="box">
+                <input type="text" placeholder="enter your subject" class="box">
+               </div>
+               <textarea placeholder=" your message" cols="30" rows="10"></textarea>
+               <input type="submit" value="send message" class="btn">
+         </form>
+         <iframe data-lazyloaded="1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.0216991511224!2d74.77893617359629!3d13.348926306496463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcbb3463be62fb%3A0x7b1878a96b3271b5!2sDolce%20Desserts!5e0!3m2!1sen!2sin!4v1701533955575!5m2!1sen!2sin" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+</section>
+
+<div class="space"></div>
+
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Home</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Shop</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>About</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Review</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Blog</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my order </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my favorite </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my wishlist </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  terms or use </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest update</p>
+            <form action="">
+            <input type="email" placeholder="enter your email address">
+            <input type="submit" value="subscribe" class="btn">
+            </form>
+            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" data-src="img/payment.png" class="payments" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="credit">created by Dailywebdesign || all rights reserved</section>
+     <script type="litespeed/javascript" data-src="main.js"></script> <script data-no-optimize="1">!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):(t="undefined"!=typeof globalThis?globalThis:t||self).LazyLoad=e()}(this,function(){"use strict";function e(){return(e=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var n,a=arguments[e];for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(t[n]=a[n])}return t}).apply(this,arguments)}function i(t){return e({},it,t)}function o(t,e){var n,a="LazyLoad::Initialized",i=new t(e);try{n=new CustomEvent(a,{detail:{instance:i}})}catch(t){(n=document.createEvent("CustomEvent")).initCustomEvent(a,!1,!1,{instance:i})}window.dispatchEvent(n)}function l(t,e){return t.getAttribute(gt+e)}function c(t){return l(t,bt)}function s(t,e){return function(t,e,n){e=gt+e;null!==n?t.setAttribute(e,n):t.removeAttribute(e)}(t,bt,e)}function r(t){return s(t,null),0}function u(t){return null===c(t)}function d(t){return c(t)===vt}function f(t,e,n,a){t&&(void 0===a?void 0===n?t(e):t(e,n):t(e,n,a))}function _(t,e){nt?t.classList.add(e):t.className+=(t.className?" ":"")+e}function v(t,e){nt?t.classList.remove(e):t.className=t.className.replace(new RegExp("(^|\\s+)"+e+"(\\s+|$)")," ").replace(/^\s+/,"").replace(/\s+$/,"")}function g(t){return t.llTempImage}function b(t,e){!e||(e=e._observer)&&e.unobserve(t)}function p(t,e){t&&(t.loadingCount+=e)}function h(t,e){t&&(t.toLoadCount=e)}function n(t){for(var e,n=[],a=0;e=t.children[a];a+=1)"SOURCE"===e.tagName&&n.push(e);return n}function m(t,e){(t=t.parentNode)&&"PICTURE"===t.tagName&&n(t).forEach(e)}function a(t,e){n(t).forEach(e)}function E(t){return!!t[st]}function I(t){return t[st]}function y(t){return delete t[st]}function A(e,t){var n;E(e)||(n={},t.forEach(function(t){n[t]=e.getAttribute(t)}),e[st]=n)}function k(a,t){var i;E(a)&&(i=I(a),t.forEach(function(t){var e,n;e=a,(t=i[n=t])?e.setAttribute(n,t):e.removeAttribute(n)}))}function L(t,e,n){_(t,e.class_loading),s(t,ut),n&&(p(n,1),f(e.callback_loading,t,n))}function w(t,e,n){n&&t.setAttribute(e,n)}function x(t,e){w(t,ct,l(t,e.data_sizes)),w(t,rt,l(t,e.data_srcset)),w(t,ot,l(t,e.data_src))}function O(t,e,n){var a=l(t,e.data_bg_multi),i=l(t,e.data_bg_multi_hidpi);(a=at&&i?i:a)&&(t.style.backgroundImage=a,n=n,_(t=t,(e=e).class_applied),s(t,ft),n&&(e.unobserve_completed&&b(t,e),f(e.callback_applied,t,n)))}function N(t,e){!e||0<e.loadingCount||0<e.toLoadCount||f(t.callback_finish,e)}function C(t,e,n){t.addEventListener(e,n),t.llEvLisnrs[e]=n}function M(t){return!!t.llEvLisnrs}function z(t){if(M(t)){var e,n,a=t.llEvLisnrs;for(e in a){var i=a[e];n=e,i=i,t.removeEventListener(n,i)}delete t.llEvLisnrs}}function R(t,e,n){var a;delete t.llTempImage,p(n,-1),(a=n)&&--a.toLoadCount,v(t,e.class_loading),e.unobserve_completed&&b(t,n)}function T(o,r,c){var l=g(o)||o;M(l)||function(t,e,n){M(t)||(t.llEvLisnrs={});var a="VIDEO"===t.tagName?"loadeddata":"load";C(t,a,e),C(t,"error",n)}(l,function(t){var e,n,a,i;n=r,a=c,i=d(e=o),R(e,n,a),_(e,n.class_loaded),s(e,dt),f(n.callback_loaded,e,a),i||N(n,a),z(l)},function(t){var e,n,a,i;n=r,a=c,i=d(e=o),R(e,n,a),_(e,n.class_error),s(e,_t),f(n.callback_error,e,a),i||N(n,a),z(l)})}function G(t,e,n){var a,i,o,r,c;t.llTempImage=document.createElement("IMG"),T(t,e,n),E(c=t)||(c[st]={backgroundImage:c.style.backgroundImage}),o=n,r=l(a=t,(i=e).data_bg),c=l(a,i.data_bg_hidpi),(r=at&&c?c:r)&&(a.style.backgroundImage='url("'.concat(r,'")'),g(a).setAttribute(ot,r),L(a,i,o)),O(t,e,n)}function D(t,e,n){var a;T(t,e,n),a=e,e=n,(t=It[(n=t).tagName])&&(t(n,a),L(n,a,e))}function V(t,e,n){var a;a=t,(-1<yt.indexOf(a.tagName)?D:G)(t,e,n)}function F(t,e,n){var a;t.setAttribute("loading","lazy"),T(t,e,n),a=e,(e=It[(n=t).tagName])&&e(n,a),s(t,vt)}function j(t){t.removeAttribute(ot),t.removeAttribute(rt),t.removeAttribute(ct)}function P(t){m(t,function(t){k(t,Et)}),k(t,Et)}function S(t){var e;(e=At[t.tagName])?e(t):E(e=t)&&(t=I(e),e.style.backgroundImage=t.backgroundImage)}function U(t,e){var n;S(t),n=e,u(e=t)||d(e)||(v(e,n.class_entered),v(e,n.class_exited),v(e,n.class_applied),v(e,n.class_loading),v(e,n.class_loaded),v(e,n.class_error)),r(t),y(t)}function $(t,e,n,a){var i;n.cancel_on_exit&&(c(t)!==ut||"IMG"===t.tagName&&(z(t),m(i=t,function(t){j(t)}),j(i),P(t),v(t,n.class_loading),p(a,-1),r(t),f(n.callback_cancel,t,e,a)))}function q(t,e,n,a){var i,o,r=(o=t,0<=pt.indexOf(c(o)));s(t,"entered"),_(t,n.class_entered),v(t,n.class_exited),i=t,o=a,n.unobserve_entered&&b(i,o),f(n.callback_enter,t,e,a),r||V(t,n,a)}function H(t){return t.use_native&&"loading"in HTMLImageElement.prototype}function B(t,i,o){t.forEach(function(t){return(a=t).isIntersecting||0<a.intersectionRatio?q(t.target,t,i,o):(e=t.target,n=t,a=i,t=o,void(u(e)||(_(e,a.class_exited),$(e,n,a,t),f(a.callback_exit,e,n,t))));var e,n,a})}function J(e,n){var t;et&&!H(e)&&(n._observer=new IntersectionObserver(function(t){B(t,e,n)},{root:(t=e).container===document?null:t.container,rootMargin:t.thresholds||t.threshold+"px"}))}function K(t){return Array.prototype.slice.call(t)}function Q(t){return t.container.querySelectorAll(t.elements_selector)}function W(t){return c(t)===_t}function X(t,e){return e=t||Q(e),K(e).filter(u)}function Y(e,t){var n;(n=Q(e),K(n).filter(W)).forEach(function(t){v(t,e.class_error),r(t)}),t.update()}function t(t,e){var n,a,t=i(t);this._settings=t,this.loadingCount=0,J(t,this),n=t,a=this,Z&&window.addEventListener("online",function(){Y(n,a)}),this.update(e)}var Z="undefined"!=typeof window,tt=Z&&!("onscroll"in window)||"undefined"!=typeof navigator&&/(gle|ing|ro)bot|crawl|spider/i.test(navigator.userAgent),et=Z&&"IntersectionObserver"in window,nt=Z&&"classList"in document.createElement("p"),at=Z&&1<window.devicePixelRatio,it={elements_selector:".lazy",container:tt||Z?document:null,threshold:300,thresholds:null,data_src:"src",data_srcset:"srcset",data_sizes:"sizes",data_bg:"bg",data_bg_hidpi:"bg-hidpi",data_bg_multi:"bg-multi",data_bg_multi_hidpi:"bg-multi-hidpi",data_poster:"poster",class_applied:"applied",class_loading:"litespeed-loading",class_loaded:"litespeed-loaded",class_error:"error",class_entered:"entered",class_exited:"exited",unobserve_completed:!0,unobserve_entered:!1,cancel_on_exit:!0,callback_enter:null,callback_exit:null,callback_applied:null,callback_loading:null,callback_loaded:null,callback_error:null,callback_finish:null,callback_cancel:null,use_native:!1},ot="src",rt="srcset",ct="sizes",lt="poster",st="llOriginalAttrs",ut="loading",dt="loaded",ft="applied",_t="error",vt="native",gt="data-",bt="ll-status",pt=[ut,dt,ft,_t],ht=[ot],mt=[ot,lt],Et=[ot,rt,ct],It={IMG:function(t,e){m(t,function(t){A(t,Et),x(t,e)}),A(t,Et),x(t,e)},IFRAME:function(t,e){A(t,ht),w(t,ot,l(t,e.data_src))},VIDEO:function(t,e){a(t,function(t){A(t,ht),w(t,ot,l(t,e.data_src))}),A(t,mt),w(t,lt,l(t,e.data_poster)),w(t,ot,l(t,e.data_src)),t.load()}},yt=["IMG","IFRAME","VIDEO"],At={IMG:P,IFRAME:function(t){k(t,ht)},VIDEO:function(t){a(t,function(t){k(t,ht)}),k(t,mt),t.load()}},kt=["IMG","IFRAME","VIDEO"];return t.prototype={update:function(t){var e,n,a,i=this._settings,o=X(t,i);{if(h(this,o.length),!tt&&et)return H(i)?(e=i,n=this,o.forEach(function(t){-1!==kt.indexOf(t.tagName)&&F(t,e,n)}),void h(n,0)):(t=this._observer,i=o,t.disconnect(),a=t,void i.forEach(function(t){a.observe(t)}));this.loadAll(o)}},destroy:function(){this._observer&&this._observer.disconnect(),Q(this._settings).forEach(function(t){y(t)}),delete this._observer,delete this._settings,delete this.loadingCount,delete this.toLoadCount},loadAll:function(t){var e=this,n=this._settings;X(t,n).forEach(function(t){b(t,e),V(t,n,e)})},restoreAll:function(){var e=this._settings;Q(e).forEach(function(t){U(t,e)})}},t.load=function(t,e){e=i(e);V(t,e)},t.resetStatus=function(t){r(t)},Z&&function(t,e){if(e)if(e.length)for(var n,a=0;n=e[a];a+=1)o(t,n);else o(t,e)}(t,window.lazyLoadOptions),t});!function(e,t){"use strict";function a(){t.body.classList.add("litespeed_lazyloaded")}function n(){console.log("[LiteSpeed] Start Lazy Load Images"),d=new LazyLoad({elements_selector:"[data-lazyloaded]",callback_finish:a}),o=function(){d.update()},e.MutationObserver&&new MutationObserver(o).observe(t.documentElement,{childList:!0,subtree:!0,attributes:!0})}var d,o;e.addEventListener?e.addEventListener("load",n,!1):e.attachEvent("onload",n)}(window,document);</script><script data-no-optimize="1">var litespeed_vary=document.cookie.replace(/(?:(?:^|.;\s)_lscache_vary\s*\=\s*([^;]*).*$)|^.*$/,"");litespeed_vary||fetch("/wp-content/plugins/litespeed-cache/guest.vary.php",{method:"POST",cache:"no-cache",redirect:"follow"}).then(e=>e.json()).then(e=>{console.log(e),e.hasOwnProperty("reload")&&"yes"==e.reload&&(sessionStorage.setItem("litespeed_docref",document.referrer),window.location.reload(!0))});</script><script data-optimized="1" type="litespeed/javascript" data-src="https://dailywebdesigns.com/wp-content/litespeed/js/11286c19db0b9c57269966f752769bf9.js?ver=cf4b9"></script><script>const litespeed_ui_events=["mouseover","click","keydown","wheel","touchmove","touchstart"];var urlCreator=window.URL||window.webkitURL;function litespeed_load_delayed_js_force(){console.log("[LiteSpeed] Start Load JS Delayed"),litespeed_ui_events.forEach(e=>{window.removeEventListener(e,litespeed_load_delayed_js_force,{passive:!0})}),document.querySelectorAll("iframe[data-litespeed-src]").forEach(e=>{e.setAttribute("src",e.getAttribute("data-litespeed-src"))}),"loading"==document.readyState?window.addEventListener("DOMContentLoaded",litespeed_load_delayed_js):litespeed_load_delayed_js()}litespeed_ui_events.forEach(e=>{window.addEventListener(e,litespeed_load_delayed_js_force,{passive:!0})});async function litespeed_load_delayed_js(){let t=[];for(var d in document.querySelectorAll('script[type="litespeed/javascript"]').forEach(e=>{t.push(e)}),t)await new Promise(e=>litespeed_load_one(t[d],e));document.dispatchEvent(new Event("DOMContentLiteSpeedLoaded")),window.dispatchEvent(new Event("DOMContentLiteSpeedLoaded"))}function litespeed_load_one(t,e){console.log("[LiteSpeed] Load ",t);var d=document.createElement("script");d.addEventListener("load",e),d.addEventListener("error",e),t.getAttributeNames().forEach(e=>{"type"!=e&&d.setAttribute("data-src"==e?"src":e,t.getAttribute(e))});let a=!(d.type="text/javascript");!d.src&&t.textContent&&(d.src=litespeed_inline2src(t.textContent),a=!0),t.after(d),t.remove(),a&&e()}function litespeed_inline2src(t){try{var d=urlCreator.createObjectURL(new Blob([t.replace(/^(?:<!--)?(.*?)(?:-->)?$/gm,"$1")],{type:"text/javascript"}))}catch(e){d="data:text/javascript;base64,"+btoa(t.replace(/^(?:<!--)?(.*?)(?:-->)?$/gm,"$1"))}return d}</script></body>
+</html>
